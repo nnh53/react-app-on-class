@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -10,10 +9,10 @@ function App() {
   return (
     <div>
       <div className="text-3xl font-bold text-red-400 underline"> ahihi</div>
-      <a href="https://vite.dev" target="_blank" className="">
+      <a href="https://vite.dev" target="_blank" className="" rel="noreferrer">
         <img src={viteLogo} className="logo" alt="Vite logo" />
       </a>
-      <a href="https://react.dev" target="_blank">
+      <a href="https://react.dev" target="_blank" rel="noreferrer">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>
       <h1 className="bg-red-500 font-bold text-red-400">Vite + React</h1>

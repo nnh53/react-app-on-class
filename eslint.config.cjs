@@ -4,6 +4,11 @@ const globals = require("globals");
 
 module.exports = [
   {
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
     files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
     plugins: {
       reactHooks,
@@ -21,10 +26,12 @@ module.exports = [
     },
     rules: {
       // ... any rules you want
+      ...react.configs.recommended.rules,
+      ...react.configs["jsx-runtime"].rules,
       "react/jsx-uses-react": "error",
       "react/jsx-uses-vars": "error",
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
+      "reactHooks/rules-of-hooks": "error",
+      "reactHooks/exhaustive-deps": "warn",
     },
     // ... others are omitted for brevity
   },
