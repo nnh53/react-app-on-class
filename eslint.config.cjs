@@ -1,8 +1,14 @@
 const react = require("eslint-plugin-react");
 const reactHooks = require("eslint-plugin-react-hooks");
 const globals = require("globals");
+const tseslint = require("typescript-eslint");
+const eslint = require("eslint");
 
 module.exports = [
+  reactHooks.configs.recommended,
+  react.configs.recommended,
+  eslint.configs.recommended,
+  tseslint.configs.recommended,
   {
     settings: {
       react: {
