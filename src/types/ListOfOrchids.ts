@@ -19,7 +19,7 @@ export const orchidList: Orchid[] = [
     rating: 4.6,
     isSpecial: false,
     isNatural: true,
-    image: "../public/13474.jpg",
+    image: "../public/vanda.jpg",
     color: "Tím",
     numberOfLike: 850,
     origin: "Thái Lan",
@@ -31,7 +31,8 @@ export const orchidList: Orchid[] = [
     rating: 4.7,
     isSpecial: false,
     isNatural: true,
-    image: "../public/13474.jpg",
+    image:
+      "https://lankiemviet.com/wp-content/uploads/2023/02/lan-kiem-phan-tri-scaled.jpeg",
     color: "Vàng",
     numberOfLike: 940,
     origin: "Trung Quốc",
@@ -43,7 +44,8 @@ export const orchidList: Orchid[] = [
     rating: 4.9,
     isSpecial: true,
     isNatural: true,
-    image: "../public/13474.jpg",
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_lBzXXSZLMEQZfKSChKX8ziFnh6qkqCxFGyuvxgAfgdlo2cp1ygWm5fApz0wY42q4kkjoD4n6X1VJqe_PPXUCYg",
     color: "Hồng",
     numberOfLike: 1350,
     origin: "Việt Nam",
@@ -55,7 +57,8 @@ export const orchidList: Orchid[] = [
     rating: 4.5,
     isSpecial: false,
     isNatural: true,
-    image: "../public/13474.jpg",
+    image:
+      "https://file.hstatic.net/200000323375/file/lan-duoi-chuon-02_73f45435ac964fc292ffb36a2741882e_grande.jpg",
     color: "Trắng Hồng",
     numberOfLike: 780,
     origin: "Ấn Độ",
@@ -67,7 +70,8 @@ export const orchidList: Orchid[] = [
     rating: 4.6,
     isSpecial: false,
     isNatural: true,
-    image: "../public/13474.jpg",
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSCgMb9axkGIBTMT2tuoMmkGV-5Erp5u9imZv51rGnsrXlHy5JwCiWN9IufcUZ7cFwze5jYcqNgLzkGJrKoAJ5ytQ",
     color: "Tím Đậm",
     numberOfLike: 910,
     origin: "Indonesia",
@@ -79,7 +83,8 @@ export const orchidList: Orchid[] = [
     rating: 4.8,
     isSpecial: true,
     isNatural: true,
-    image: "../public/13474.jpg",
+    image:
+      "https://lamvuon.net/wp-content/uploads/2022/11/lan-cam-bao-thumb.jpg",
     color: "Cam",
     numberOfLike: 1100,
     origin: "Myanmar",

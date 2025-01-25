@@ -5,15 +5,20 @@ const OrchidCard = (propOrchid: Orchid) => {
   return (
     <Card
       className="m-1 max-w-sm bg-pink-50"
-      imgSrc={propOrchid.image}
-      imgAlt={propOrchid.name}
+      // imgSrc={propOrchid.image}
+      // imgAlt={propOrchid.name}
     >
+      <img
+        className="h-80 w-64 rounded-lg object-cover object-center"
+        src={propOrchid.image}
+        alt="image description"
+      ></img>
       {/* name */}
-      <a href="#">
+      <h2>
         <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
           {propOrchid.name}
         </h5>
-      </a>
+      </h2>
       {/* rating and people */}
       <div className="mb-1 mt-2.5 flex items-center">
         <svg

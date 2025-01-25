@@ -38,6 +38,7 @@ module.exports = [
       "react/jsx-uses-vars": "error",
       "reactHooks/rules-of-hooks": "error",
       "reactHooks/exhaustive-deps": "warn",
+      "no-unused-vars": "warn",
     },
     // ... others are omitted for brevity
   },
